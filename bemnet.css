@@ -1,0 +1,208 @@
+.bb{
+    margin-bottom: 30px;
+   
+}
+
+.cc{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 106);
+    border: none;
+    color: white;
+    margin-right: 50px;
+    margin-left: 400px;
+}
+
+.cc:hover{
+   box-shadow: 0px 0px 30px rgb(255, 81, 0);
+   cursor: pointer;
+}
+
+.cc:active{
+    background-color: rgb(255, 157, 0);
+    color: white;
+}
+
+.dd{
+     width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(0, 72, 255);
+    border: none;
+    color: white;
+    margin-right: 50px;
+}
+
+.dd:hover{
+    background-color: white;
+    color:rgb(0, 72, 255);
+    cursor: pointer;
+}
+
+.dd:active{
+    color: white;
+    background-color: blue;
+}
+
+.ee{
+   width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: none;  
+    color: white;
+    margin-right: 50px;
+}
+
+.ee:hover{
+    box-shadow: 10px 10px 0px rgb(1, 198, 247);
+    cursor: pointer;
+}
+
+.ee:active{
+    box-shadow: 10px 0px 0px rgb(255, 0, 0);
+}
+
+.ff{
+     width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    margin-right: 50px;
+}
+
+.ff:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.ff:active{
+    opacity: 1;
+}
+
+.gg{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hh{
+    text-align: center;
+}
+
+.ii{
+    width: 300px;
+}
+
+.jj{
+    width: 300px;
+}
+
+.kk{
+    width: 300px;
+}
+
+.ll{
+    width: 300px;
+}
+
+.mm{
+    width: 300px;
+}
+
+.wallpapers{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+   column-gap: 50px;
+   row-gap: 30px;
+}
+
+.nn{
+    text-align: center;
+}
+
+.proffesion{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.za{
+    width: 100px;
+    margin-left: 700px;
+}
+
+.bm{
+    position: fixed;
+    background-color: purple;
+    width: 1600px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.forth{
+    text-align: center;
+    font-size: 20px;
+}
+
+.welcome{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+.works{
+    width: 300px;
+}
+
+.workss{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.watch{
+    font-size: 25px;
+
+}
+
+.ending{
+    width: 700px;
+}
+
+.hah{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.last{
+   margin-top: 0;
+}
+
+.suu{
+   margin-bottom: 0;
+}
+
+.lambo{
+    text-align: center;
+    font-size: 20px;
+}
+
+.tnx{
+    font-size: 20px;
+}
+
+body{
+
+}

@@ -16,7 +16,7 @@
     border: none;
     color: white;
     margin-right: 50px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 .cc:hover{
@@ -107,6 +107,8 @@
 
 .hh{
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .ii{
@@ -132,8 +134,8 @@
 .wallpapers{
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
-   column-gap: 50px;
-   row-gap: 30px;
+   column-gap: 10px;
+   row-gap: 10px;
 }
 
 .nn{
@@ -152,12 +154,14 @@
 
 .za{
     width: 100px;
-    margin-left: 750px;
-    margin-top: 10px;
+    margin-left: 650px;
+    padding-top: 10px;
 }
 
 .bm{
     position: fixed;
+    display: flex;
+    flex-direction: row;
   background: linear-gradient(#a109e2, #640a85, rgb(123, 8, 67));
     width: 1600px;
     height: 70px;
@@ -188,7 +192,7 @@
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
     row-gap: 30px;
-    column-gap: 50px;
+    column-gap: 30px;
 }
 
 .watch{
@@ -231,6 +235,7 @@ body{
     padding-top: 20px;
     padding-left: 120px;
     padding-bottom: 30px;
+   
 }
 
 *{
@@ -240,8 +245,8 @@ body{
 }
 
 html,body{
-    
-    
+    padding-right: 30px;
+    background: linear-gradient(#d295ed, #fa994e, rgb(64, 8, 123)); 
 }
 
 nav{
@@ -333,5 +338,104 @@ nav ul .dropdown-five:hover ul{
     display: initial;
 }
 
+.buttonholder-two{
+   
+  
+  padding-top: 30px;
+margin-left: 100px;
+ padding-bottom: 100px;
+ 
+}
 
+.buttonholder-two a{
+    color: white;
+}
 
+.cc2{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 106);
+    border: none;
+    color: white;
+    margin-right: 20px;
+   
+}
+
+.cc2:hover{
+   box-shadow: 0px 0px 30px rgb(255, 81, 0);
+   cursor: pointer;
+}
+
+.cc2:active{
+    background-color: rgb(255, 157, 0);
+    color: white;
+}
+
+.dd2{
+     width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(0, 72, 255);
+    border: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.dd2:hover{
+    background-color: rgb(46, 0, 132);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.dd2:active{
+    color: white;
+    background-color: blue;
+}
+
+.ee2{
+   width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    border: none;  
+    color: white;
+    margin-right: 20px;
+}
+
+.ee2:hover{
+    box-shadow: 10px 10px 0px rgb(1, 198, 247);
+    cursor: pointer;
+}
+
+.ee2:active{
+    box-shadow: 10px 0px 0px rgb(255, 0, 0);
+}
+
+.ff2{
+     width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    
+}
+
+.ff2:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.ff2:active{
+    opacity: 1;
+}
+
+.aspire{
+    color: white;
+   
+}

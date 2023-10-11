@@ -8,7 +8,7 @@
 }
 
 .cc{
-    width: 100px;
+    width: 100px auto;
     height: 50px;
     font-size: 15px;
     border-radius: 50px;
@@ -30,7 +30,7 @@
 }
 
 .dd{
-     width: 100px;
+     width: 100px auto;
     height: 50px;
     font-size: 15px;
     border-radius: 50px;
@@ -52,7 +52,7 @@
 }
 
 .ee{
-   width: 100px;
+   width: 100px auto;
     height: 50px;
     font-size: 15px;
     border-radius: 50px;
@@ -72,7 +72,7 @@
 }
 
 .ff{
-     width: 100px;
+     width: 100px auto;
     height: 50px;
     font-size: 15px;
     border-radius: 50px;
@@ -141,6 +141,7 @@
 .nn{
     text-align: center;
     text-transform: capitalize;
+    padding-top: 10px;
 }
 
 .mypart{
@@ -438,4 +439,279 @@ margin-left: 100px;
 .aspire{
     color: white;
    
+}
+
+
+@media (max-width: 1048px) {
+    .works{
+    width: 150px;
+
+    }
+
+    .workss{
+        display: grid;
+        grid-template-columns: 150px 150px;
+       row-gap: 4px;
+       column-gap: 4px;
+       
+    }
+
+    .nn{
+        text-align: center;
+        text-transform: capitalize;
+        padding-top: 10px;
+    }
+    
+    .mypart{
+        text-transform: capitalize;
+        
+    }
+    
+    .proffesion{
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        width: 300px;
+    }
+
+    .wallpapers{
+        display: grid;
+        grid-template-columns: 150px 150px;
+       column-gap: 4px;
+       row-gap: 4px;
+    }
+
+    .ii{
+        width: 150px;
+    }
+    
+    .jj{
+        width: 150px;
+    }
+    
+    .kk{
+        width: 150px;
+    }
+    
+    .ll{
+        width: 150px;
+    }
+    
+    .mm{
+        width: 150px;
+    }
+    
+    .cc{
+        width: 30px auto;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 0, 106);
+        border: none;
+        color: white;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .cc:hover{
+       box-shadow: 0px 0px 30px rgb(255, 81, 0);
+       cursor: pointer;
+    }
+    
+    .cc:active{
+        background-color: rgb(255, 157, 0);
+        color: white;
+    }
+    
+    .dd{
+         width: 30px auto;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(0, 72, 255);
+        border: none;
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .dd:hover{
+        background-color: rgb(46, 0, 132);
+        color:rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .dd:active{
+        color: white;
+        background-color: blue;
+    }
+    
+    .ee{
+       width: 30px auto;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(0, 0, 0);
+        border: none;  
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .ee:hover{
+        box-shadow: 10px 10px 0px rgb(1, 198, 247);
+        cursor: pointer;
+    }
+    
+    .ee:active{
+        box-shadow: 10px 0px 0px rgb(255, 0, 0);
+    }
+    
+    .ff{
+         width: 30px auto;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 0, 0);
+        border: none;
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .ff:hover{
+        opacity: 0.6;
+        cursor: pointer;
+    }
+    
+    .ff:active{
+        opacity: 1;
+    }
+
+    .uvideo{
+        width: 300px;
+        height: 200px;
+    }
+
+    .hah{
+    margin-left: 1px;
+        margin-top: 10px;
+    }
+
+    .ending{
+        width: 300px;
+    }
+
+    .za{
+        width: 100px;
+        margin-left: 120px;
+        padding-top: 10px;
+    }
+
+    .superias{
+        width: 300px;
+    }
+
+    .suu{
+        margin-top: 20px;
+    }
+
+    .szaa{
+        display: none;
+    }
+
+    .buttonholder-two{
+   
+  
+  padding-top: 30px;
+margin-left: 100px;
+ padding-bottom: 100px;
+ 
+}
+    
+    .cc2{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 0, 106);
+        border: none;
+        color: white;
+        margin-right: 20px;
+       
+    }
+    
+    .cc2:hover{
+       box-shadow: 0px 0px 30px rgb(255, 81, 0);
+       cursor: pointer;
+    }
+    
+    .cc2:active{
+        background-color: rgb(255, 157, 0);
+        color: white;
+    }
+    
+    .dd2{
+         width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(0, 72, 255);
+        border: none;
+        color: white;
+        margin-right: 20px;
+    }
+    
+    .dd2:hover{
+        background-color: rgb(46, 0, 132);
+        color:rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .dd2:active{
+        color: white;
+        background-color: blue;
+    }
+    
+    .ee2{
+       width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(0, 0, 0);
+        border: none;  
+        color: white;
+        margin-right: 20px;
+    }
+    
+    .ee2:hover{
+        box-shadow: 10px 10px 0px rgb(1, 198, 247);
+        cursor: pointer;
+    }
+    
+    .ee2:active{
+        box-shadow: 10px 0px 0px rgb(255, 0, 0);
+    }
+    
+    .ff2{
+         width: 100px;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 0, 0);
+        border: none;
+        color: white;
+        
+    }
+    
+    .ff2:hover{
+        opacity: 0.6;
+        cursor: pointer;
+    }
+    
+    .ff2:active{
+        opacity: 1;
+    }
+
+    body{
+        width: 430px;
+    }
+   
+    
 }
